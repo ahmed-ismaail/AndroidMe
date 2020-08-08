@@ -10,7 +10,6 @@ import android.widget.ImageView;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-
 import com.example.androidme.R;
 
 import java.util.ArrayList;
@@ -72,9 +71,9 @@ public class BodyPartFragment extends Fragment {
         this.mImageIds = mImageIds;
     }
 
-//    public void setmListIndex(int mListIndex) {
-//        this.mListIndex = mListIndex;
-//    }
+    public void setmListIndex(int mListIndex) {
+        this.mListIndex = mListIndex;
+    }
 
     //to save the current state of a fragment
     @Override
